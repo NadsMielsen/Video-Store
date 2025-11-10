@@ -1,0 +1,9 @@
+﻿@page
+@model IndexModel
+
+<div style="display: flex; justify-content: center; align-items: center; min-height: 80vh;">
+    @if (Model.CustomerStatement != null)
+    {
+        <pre>@Model.CustomerStatement</pre>
+    }
+</div>
